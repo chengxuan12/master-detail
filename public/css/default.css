@@ -1,0 +1,104 @@
+
+.cx-nav{
+    background: #F3F3F3;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+.cx-container{
+    margin: 0 auto;
+    width: 1000px;
+}
+.cx-back{
+    background: #DCEFFE;
+    min-height: 900px;
+}
+
+.markdown-text p img{
+    max-width:00px;;
+}
+
+.cx-a-logo{
+    padding: 5px 15px 0 0;
+    display: inline-block;
+}
+.cx-logo{
+    width: 90px;
+    height: 50px;
+    background: url(../img/cx-logo.png) no-repeat ;
+    background-size:90% ;
+    margin: 0 0 0 15px;
+
+}
+.cx-note{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 21px;
+    color: #BFBDBD;
+    padding-top: 15px;
+}
+.pa-tb-40{
+   padding: 40px 0 60px 0 ;
+}
+.main-box{
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.cont-box{
+    min-height: 800px;
+    width: 760px;
+    padding: 30px;
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+.sider-box{
+    width: 238px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.master ul {
+    padding-left: 0;
+}
+.master ul li{
+    list-style:none;
+    border-top: 1px dotted #e4e6eb;
+    padding:15px 0
+}
+
+.sider-img{
+    width: 238px;
+    height: 78px;
+    background: url(../img/sider.jpg) no-repeat ;
+}
+.sider-head{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: url(../img/sider-head.jpg) no-repeat ;
+    position: absolute;
+    top: 47px;
+    left: 89px;
+}
+.author{
+    padding-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.sider-content{
+    padding:15px;
+    visibility: visible;
+    animation-duration: 2s;
+}
+.introduction{
+    font-size:15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.int-content{
+    font-size: 13px;
+    color: #666;
+    line-height: 22px;
+    text-indent: 2em;
+}
