@@ -8,14 +8,7 @@ import configureStore from '../store/configureStore'
 import routes from '../routes'
 /*eslint-enable*/
 
-const initialState = {
-            item: {},
-            list:[],
-            items: [],
-            totalPage:1,
-            hadFetch:false
-        }
-const store = configureStore(initialState)
+const store = configureStore()
 
 export function createElements (history) {
     const elements = [
