@@ -35,7 +35,13 @@ export default class Master extends Component {
     }
     goFetch(page){
         const {fetchMaster,receiveMaster,list,hadFetch} = this.props;
-        page = page==undefined?1:page
+        if(page==undefined&&this.props.params.page==undefined){
+            page=1;
+        }else if(page==undefined&&this.props.params.page!=undefined){
+            page=this.props.params.page;
+        }else {
+            page=page;
+        }
         if(hadFetch==true){
             receiveMaster(list,page)
         }else {
