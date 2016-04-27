@@ -1,11 +1,11 @@
-���裺
-1����ѹѹ����
+步骤：
+1、下载项目
 
-2�������������л����ļ�·�� npm install   (��ȷ��node�汾����. ���˰汾node4.3.1,npm3.5.2. ���˳��Խ���Ŀ���͸����ѵ������У������������node�汾���ͣ����±���)
+2、在命令行下切换到文件路径 npm install   (请确保node版本合适. 本人版本node4.3.1,npm3.5.2. 本人尝试将项目发送给朋友电脑运行，结果由于朋友node版本过低，导致报错)
 
-3������װ�ú� npm start
+3、包安装好后 npm start
 
-4��������� localhost:8080 ������Ŀ
+4、打开浏览器 localhost:8080 运行项目
 
-������
-����Ŀ ��ȡ����react+redux+routerģʽ��ʹ��webpack���ߴ������Ŀ���뻹�Ƚϴֲڣ��������ƴ��Ľ��Ĺ��ܣ�֮���ڰ汾�����л���ȥ��������
+描述：
+本项目 采取的是react+redux+router模式，使用webpack工具打包。项目代码还比较粗糙，有许多善待改进的功能，之后在版本迭代中会逐步去完善它。
